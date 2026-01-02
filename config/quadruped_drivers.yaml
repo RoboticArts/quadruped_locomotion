@@ -1,0 +1,95 @@
+quadruped_drivers_config:
+
+  lf_drivers:
+
+    haa_driver:
+      name: "LF_HAA"
+      id: "0"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+          
+    hfe_driver:
+      name: "LF_HFE"
+      id: "1"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+
+    kfe_driver:
+      name: "LF_KFE"
+      id: "2"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+
+  lh_drivers:
+
+    haa_driver:
+      name: "LH_HAA"
+      id: "3"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+          
+    hfe_driver:
+      name: "LH_HFE"
+      id: "4"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+
+    kfe_driver:
+      name: "LH_KFE"
+      id: "5"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+
+  rf_drivers:
+
+    haa_driver:
+      name: "RF_HAA"
+      id: "6"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+          
+    hfe_driver:
+      name: "RF_HFE"
+      id: "7"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+
+    kfe_driver:
+      name: "RF_KFE"
+      id: "8"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+
+  rh_drivers:
+
+    haa_driver:
+      name: "RH_HAA"
+      id: "9"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+          
+    hfe_driver:
+      name: "RH_HFE"
+      id: "10"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+
+    kfe_driver:
+      name: "RH_KFE"
+      id: "11"
+      gazebo:
+        write: "/actuators"
+        read: "/world/default/model/robot/anymal/joint_state"
+
+    
